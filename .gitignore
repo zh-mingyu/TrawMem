@@ -1,0 +1,33 @@
+# Local configuration and credentials
+config.py
+*.env
+.env.*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local model and database artifacts
+thread_lancedb_data/
+*.lance/
+outputs/
+results/
+logs/
+*_results.json
+*_metrics.json
+*.jsonl
+*.log
+
+# OS/editor artifacts
+.DS_Store
+.idea/
+.vscode/
+
+# Local datasets and virtual environments
+data/
+.venv/
+venv/
